@@ -1,0 +1,30 @@
+version: '2.0'
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- ask_weather
+- thanks
+
+entities:
+- location
+
+responses:
+  utter_greet:
+  - text: Hi! I'm a bot that provides weather informations.
+  utter_goodbye:
+  - text: Bye.
+  utter_welcome:
+  - text: You're welcome :)
+
+actions:
+- utter_greet
+- utter_goodbye
+- weather_info
+- utter_welcome
