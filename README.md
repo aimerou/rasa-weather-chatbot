@@ -25,7 +25,10 @@ pip install -r requirements.txt
 
 Move to the chatbot folder `cd chatbot`.
 
-Use `rasa train` to train a model.
+To train a model, use:
+```bash
+rasa train
+```
 
 Then, to run, first set up your action server in one terminal window:
 ```bash
