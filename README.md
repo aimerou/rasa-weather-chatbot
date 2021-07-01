@@ -2,6 +2,8 @@
 
 This chatbot is conversational agent that informs user about the weather of a specific location throughout the world.
 
+![image](./bot_conversation.png)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table Of Contents**
