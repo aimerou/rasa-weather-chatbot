@@ -1,2 +1,5 @@
 # Virtual Environnements
 venv
+
+# Trained Models
+rasa_chatbot/models
